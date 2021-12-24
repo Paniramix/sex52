@@ -6,7 +6,7 @@ if getting permissions errors, set up a udev rule:
 
 `/etc/udev/rules.d/20-sex52.rules`
 
-`ATTRS{idVendor}=="06a3", ATTRS{idProduct}=="0762", OWNER="coghex"`
+`ATTRS{idVendor}=="06a3", ATTRS{idProduct}=="0762", OWNER="[USERNAME]"` *Replace [USERNAME] with your username
 
 then reload:
 
