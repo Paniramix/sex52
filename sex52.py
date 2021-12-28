@@ -48,8 +48,8 @@ def init(dev):
     dev.set_led(X52ProEvdevKeyMapping.FIRE_I,X52ColoredLedStatus.GREEN)
     dev.set_led(X52ProEvdevKeyMapping.POV_2_UP,X52ColoredLedStatus.GREEN)
     dev.set_led(X52ProEvdevKeyMapping.TOGGLE_1,X52ColoredLedStatus.AMBER)
-    dev.set_led(X52ProEvdevKeyMapping.TOGGLE_2,X52ColoredLedStatus.AMBER)
     dev.set_led(X52ProEvdevKeyMapping.TOGGLE_3,X52ColoredLedStatus.AMBER)
+    dev.set_led(X52ProEvdevKeyMapping.TOGGLE_5,X52ColoredLedStatus.AMBER)
     print("init")
 
 def sigInt(sig_in,frame):
